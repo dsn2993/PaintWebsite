@@ -1,0 +1,329 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.email{
+     font-family: 'Lobster', cursive;
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     align-items: center;
+     padding: 0px 20px;
+     background-color: #192a56;
+     height: 50px;
+}
+.email p{
+    color: white;
+}
+.email i{
+    font-size: 20px;
+    margin:0px 5px;
+}
+
+/* now we'll style nav */
+nav{
+    width: 100%;
+    height: 70px;
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px ;
+}
+.logo{
+    font-size: 2em;
+    font-weight: bold;
+    font-weight: bolder;
+    flex-basis: 30%; 
+    font-family: 'Lobster', cursive;
+}
+.menu{
+    flex-basis: 70%;
+    text-align: right;    
+}
+.menu a{
+    text-decoration: none;
+    color: grey;
+    padding: 10px 10px;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+}
+.menu a:first-child{
+    color: black;
+}
+.menu a:hover{
+   color: pink;  
+}
+
+/* now we'll style header */
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/sofa.jpg');
+    background-size: 100% 100%;
+    position: relative;
+    text-align: center;
+    padding: 7em;
+    box-sizing: border-box; 
+}
+header h1{
+    font-family: 'Courgette',sans-serif;
+    font-size: 4em;
+    color: white;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+header button{
+    background-color: #192a56;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    letter-spacing: 3px;
+}
+
+/* now we'll style  section-1 */
+#services{
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+#services>div{
+    flex-basis: 20%;
+    text-align: center;
+}
+#services>div img{
+    width: 50%;
+}
+#services p{
+    color:green;
+    font-size: 20px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+/* now we'll style  section-2 */
+#quality{
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+    background:rgba(0,0,0,0.05);
+}
+#quality > div{
+    flex-basis: 30%;
+    text-align: center;
+}  
+#quality>div img{
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 3px greenyellow;
+}
+#quality p{
+    font-size: 20px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* now we'll style  section-3 */
+#featured{
+   padding: 50px 100px;
+   background: #192a56;
+   width: 100%;
+   height: 100vh;
+   color: white;
+   position: relative;
+}
+#featured h1{
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    font-family: 'Courgette',cursive;
+    
+}
+.feature-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.featured-left-col{
+    flex-basis: 30%;
+    text-align: center;
+}
+.featured-left-col img{
+    width: 70%;
+    background: white;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+.featured-right-col{
+    flex-basis: 60%;
+}
+.featured-right-col h2{
+    font-size: 30px;
+}
+.featured-right-col p{
+    font-size: 20px;
+   margin: 20px 0px;
+}
+.featured-right-col button{
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+#wave{
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    width: 100%;
+}
+
+
+/* now we will style testimonials */
+#testimonials{
+    padding: 50px 100px;
+    width: 100%;
+}
+#testimonials h1{
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Courgette',cursive;
+}
+#testimonials h1 span{
+    color: chartreuse;
+}
+
+/* below code is taken from 'swiperjs' website. */
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    /* display: block; */
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide p{
+      background: #192a56;
+      color: white;
+      font-size: 1em;
+      padding: 5px 10px;
+      position: absolute;
+      bottom: 0;
+      text-align: center;
+      width: 100%;
+      font-family: 'Roboto',sans-serif;
+  }
+
+
+  /* now we will style contact section */
+  #contact{
+      padding: 50px 100px;
+      width: 100%;
+      height: 100%;
+  }
+
+  #contact h1{
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Courgette',cursive;
+  }
+
+  #contact h1 span{
+      color: #192a56;
+  }
+
+  .contact-row{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+  }
+  .contact-left-col{
+      flex-basis: 50%;
+  }
+  
+  .contact-left-col iframe{
+      border-radius: 10px;
+  }
+
+  .contact-right-col{
+    flex-basis: 40%;
+  }
+
+  .contact-right-col h2{
+      text-align: center;
+      font-size: 2em;
+      font-family: 'Courgette',cursive;
+      margin-bottom: 1em;
+  }
+
+  form input[type="text"]{
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+  }
+
+  textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  button{
+      padding: 10px 20px;
+      color: white;
+      background: #192a56;
+      border: none;
+      outline: none;
+      border-radius: 10px;
+  }
+
+
+  /* footer section style */
+  footer{
+      display: flex;
+      justify-content: space-around;
+      background: #192a56;
+      padding: 50px 100px;
+      color: white;
+      align-items: center;
+      line-height: 30px;
+      cursor: pointer;
+  }
+
+  footer h3{
+      font-size: 30px;
+      margin-bottom: 10px;
+  }
+
+  footer p{
+      font-family: 'Roboto',sans-serif;
+  }
+
